@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project Camp Dicoding</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+
+
+    <style>
+    body{
+        background: url('images6.jpg');
+        background-size:cover;
+        background-attachment: fixed;
+    }
+    #box1{
+        height: 100px;
+        width: 400px;
+        background: rgba(242, 0, 0, 0.500);
+        border: black 2px solid;
+    }
+    </style>
+
+</head>
+<body>
+<nav class="menu">
+	<ul>
+		<div class="heading">
+			<i><a href="#">T O U R I S T &nbsp;  A T T R A C T I O N</a></i><hr>
+		</div>
+	</ul>
+</nav>
+<hr>
+<nav class="Menu1">
+	<ul>
+		<div class="Menu">
+			<center>
+			<li><a href="home2.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+      		<li><a href="profil.html">Profil</a></li>
+      		<li><a href="contact.html">Contact</a></li>
+      		<div class="dropdown">
+  <li style="color: white">Travel List</li>
+  <div class="dropdown-content" ><br>
+  <a href="asia.html" style="color: white;">Asia</a><br><br>
+  <a href="europa.html" style="color: white;">Europa</a><br><br>
+  </div>
+</div>
+			</center>
+		</div>
+	</ul>
+</nav>
+<br>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+<a href="bromo2.html">
+  <img src="images/bromo2.png" style="width:1000px; height: 350px;">
+  <div class="text">BROMO</div></a>
+</div>
+
+<div class="mySlides fade">
+<a href="tokyodisney.html">
+  <img src="images/wisataJepang1.jpg" style="width:1000px; height: 350px;">
+  <div class="text">GUNUNG FUJI</div></a>
+</div>
+
+<div class="mySlides fade">
+<a href="ItsukushimaShrine.html">
+  <img src="images/wisataJepang2.jpg" style="width:1000px; height: 350px;">
+  <div class="text">ITSUKUSHIMA SHRINE</div></a>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)"></a>
+<a class="next" onclick="plusSlides(1)"></a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+  	<br>
+  	<i>
+<section>
+  <nav>
+<div class="card">
+	<a href="bromo2.html">
+  <img src="images/bromo2.png" alt="Notebook" style="width:100%;">
+  <div class="content"></a>
+  </nav>
+  
+  <article style="color: white;">
+    <h1>GUNUNG BROMO</h1>
+    <p href="">&nbsp;&nbsp;&nbsp;&nbsp;Gunung Bromo adalah sebuah gunung berapi aktif di Jawa Timur, Indonesia. Gunung ini memiliki ketinggian 2.329 meter di atas permukaan laut dan berada dalam empat wilayah kabupaten, yakni Kabupaten Probolinggo, Kabupaten Pasuruan, Kabupaten Lumajang, dan Kabupaten Malang. Gunung Bromo terkenal sebagai objek wisata utama di Jawa Timur. Sebagai sebuah objek wisata, Bromo menjadi menarik karena statusnya sebagai gunung berapi yang masih aktif. Gunung Bromo termasuk dalam kawasan Taman Nasional Bromo Tengger Semeru. Bentuk tubuh Gunung Bromo bertautan antara lembah dan ngarai dengan kaldera atau lautan pasir seluas sekitar 10 kilometer persegi. Ia mempunyai sebuah kawah dengan garis tengah ± 800 meter (utara-selatan) dan ± 600 meter (timur-barat). Sedangkan daerah bahayanya berupa lingkaran dengan jari-jari 4 km dari pusat kawah Bromo.</p>
+  </article>
+</section>
+ </div>
+<br><br>
+<section>
+  <nav>
+<div class="card">
+<a href="ItsukushimaShrine.html">
+  <img src="images/wisataJepang2.jpg" style="width:100%;">
+  <div class="content"></a>
+  </nav>
+  
+  <article style="color: white;">
+    <h1>ITSUKUSHIMA SHRINE</h1>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Kuil Itsukushima (厳島神社 Itsukushima jinja) adalah kuil Shinto di Pulau Itsukushima (Pulau Miyajima), Hatsukaichi, Prefektur Hiroshima, Jepang.
+
+Didirikan lebih dari 1.400 tahun yang lalu, kuil Itsukushima merupakan salah satu situs peninggalan budaya Situs Warisan Dunia UNESCO yang terdaftar sejak tahun 1996.</p>
+    <p>Beberapa bangunan yang berada di kompleks kuil Itsukushima dan benda-benda pusaka yang dimiliki kuil Itsukushima termasuk di antaranya sutra Heike Nōkyō didaftar sebagai Pusaka Nasional Jepang. Sutra Heike Nōkyō milik kuil Itsukushima merupakan hadiah dariklan Taira pada tahun 1164.</p>
+  </article>
+</section>
+</div>
+<br><br>
+<section>
+  <nav>
+<div class="card">
+	<a href="gunungfuji.html">
+  <img src="images/wisataJepang1.jpg" style="width:100%;">
+  <div class="content"></a>
+  </nav>
+  
+  <article style="color: white;">
+    <h1>GUNUNG FUJI</h1>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Gunung Fuji (富士山 Fuji-san, IPA: [ɸɯʥisaɴ]) adalah gunung tertinggi di Jepang, terletak di perbatasan Prefektur Shizuoka dan Yamanashi, di sebelah barat Tokyo.
+
+Gunung Fuji terletak dekat pesisir Pasifik di pusat Honshu.</p>
+    <p>Fuji dikelilingi oleh tiga kota yaitu Gotemba (timur), Fuji-Yoshida (utara) dan Fujinomiya (barat daya). Gunung setinggi 3.776 m[1] ini dikelilingi juga oleh lima danau yaitu Kawaguchi, Yamanaka, Sai, Motosu dan Shoji.</p>
+  </article>
+</section>
+</div>
+</i>
+<br><br><br><br><br>
+
+
+<div class="footer">
+  <p style="float: left;">&nbsp; 2020 (c) All Rights Reserved &nbsp;
+  <br>
+  <p style="float: left;">Privacy Policy &nbsp;</a>
+
+  <br>
+  <p style="float: left;">Terms of Service</a></p>
+</div>
+
+</body>
+</html>
